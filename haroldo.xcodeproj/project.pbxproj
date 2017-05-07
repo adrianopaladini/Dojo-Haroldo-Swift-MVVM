@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4A1BC13DEC5C014452BF14 /* Pods_haroldoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECA10C3B1CD369EE5CE683 /* Pods_haroldoUITests.framework */; };
+		B02B35FDE22FED388B68BB1C /* Pods_haroldo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA23652ADEDE6C3E159C4AD6 /* Pods_haroldo.framework */; };
+		E47092211E38D1D2001540EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092201E38D1D2001540EE /* AppDelegate.swift */; };
+		E47092281E38D1D2001540EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47092261E38D1D2001540EE /* Main.storyboard */; };
+		E470922A1E38D1D2001540EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47092291E38D1D2001540EE /* Assets.xcassets */; };
+		E470922D1E38D1D2001540EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E470922B1E38D1D2001540EE /* LaunchScreen.storyboard */; };
+		E47092381E38D1D2001540EE /* haroldoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092371E38D1D2001540EE /* haroldoTests.swift */; };
+		E47092431E38D1D2001540EE /* haroldoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092421E38D1D2001540EE /* haroldoUITests.swift */; };
+		E470925A1E38D78B001540EE /* Albums.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47092591E38D78B001540EE /* Albums.storyboard */; };
+		E470925C1E38D840001540EE /* Tasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E470925B1E38D840001540EE /* Tasks.storyboard */; };
+		E470925E1E38D853001540EE /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E470925D1E38D853001540EE /* Posts.storyboard */; };
+		E47092621E38DE6B001540EE /* AlbumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092611E38DE6B001540EE /* AlbumsVC.swift */; };
+		E47092641E38F708001540EE /* AlbumsOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092631E38F708001540EE /* AlbumsOP.swift */; };
+		E47092661E38F7A2001540EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092651E38F7A2001540EE /* Constants.swift */; };
+		E47092681E38F879001540EE /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092671E38F879001540EE /* Album.swift */; };
+		E470926A1E3907F8001540EE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092691E3907F8001540EE /* Notifications.swift */; };
+		E470926C1E391184001540EE /* AlbumsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E470926B1E391184001540EE /* AlbumsVM.swift */; };
+		E470926E1E3911C4001540EE /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = E470926D1E3911C4001540EE /* States.swift */; };
+		E47092701E39138A001540EE /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E470926F1E39138A001540EE /* AlbumCell.swift */; };
+		E47092721E39220E001540EE /* AlbumDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47092711E39220E001540EE /* AlbumDetails.storyboard */; };
+		E47092741E39235F001540EE /* AlbumDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092731E39235F001540EE /* AlbumDetailsVC.swift */; };
+		E470927A1E392AE1001540EE /* AlbumDetailsCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47092791E392AE1001540EE /* AlbumDetailsCells.swift */; };
+		E470927C1E392B7C001540EE /* AlbumsDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E470927B1E392B7C001540EE /* AlbumsDetailsVM.swift */; };
+		E470927E1E392CE2001540EE /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E470927D1E392CE2001540EE /* Comment.swift */; };
+		EE74598F5772F16F25B7AD45 /* Pods_haroldoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A9110908E3EE8F03666A0 /* Pods_haroldoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E47092341E38D1D2001540EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47092151E38D1D2001540EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E470921C1E38D1D2001540EE;
+			remoteInfo = haroldo;
+		};
+		E470923F1E38D1D2001540EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47092151E38D1D2001540EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E470921C1E38D1D2001540EE;
+			remoteInfo = haroldo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B2B2326049409A849371BC0 /* Pods-haroldo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haroldo.release.xcconfig"; path = "Pods/Target Support Files/Pods-haroldo/Pods-haroldo.release.xcconfig"; sourceTree = "<group>"; };
+		71D99EBCEB98BB83D2872009 /* Pods-haroldo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haroldo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-haroldo/Pods-haroldo.debug.xcconfig"; sourceTree = "<group>"; };
+		88D9EC14357AD93E909A7552 /* Pods-haroldoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haroldoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-haroldoTests/Pods-haroldoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADECA10C3B1CD369EE5CE683 /* Pods_haroldoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_haroldoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE22FD28CBD47A1555CF4FB /* Pods-haroldoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haroldoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-haroldoUITests/Pods-haroldoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD48383D76BD95F69A532178 /* Pods-haroldoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haroldoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-haroldoTests/Pods-haroldoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB840DD9560C88BC4FF16361 /* Pods-haroldoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haroldoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-haroldoUITests/Pods-haroldoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE7A9110908E3EE8F03666A0 /* Pods_haroldoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_haroldoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA23652ADEDE6C3E159C4AD6 /* Pods_haroldo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_haroldo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E470921D1E38D1D2001540EE /* haroldo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haroldo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47092201E38D1D2001540EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E47092271E38D1D2001540EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E47092291E38D1D2001540EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E470922C1E38D1D2001540EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E470922E1E38D1D2001540EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47092331E38D1D2001540EE /* haroldoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haroldoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47092371E38D1D2001540EE /* haroldoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haroldoTests.swift; sourceTree = "<group>"; };
+		E47092391E38D1D2001540EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E470923E1E38D1D2001540EE /* haroldoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haroldoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47092421E38D1D2001540EE /* haroldoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haroldoUITests.swift; sourceTree = "<group>"; };
+		E47092441E38D1D2001540EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47092591E38D78B001540EE /* Albums.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Albums.storyboard; sourceTree = "<group>"; };
+		E470925B1E38D840001540EE /* Tasks.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tasks.storyboard; sourceTree = "<group>"; };
+		E470925D1E38D853001540EE /* Posts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
+		E47092611E38DE6B001540EE /* AlbumsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsVC.swift; sourceTree = "<group>"; };
+		E47092631E38F708001540EE /* AlbumsOP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsOP.swift; sourceTree = "<group>"; };
+		E47092651E38F7A2001540EE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E47092671E38F879001540EE /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		E47092691E3907F8001540EE /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		E470926B1E391184001540EE /* AlbumsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsVM.swift; sourceTree = "<group>"; };
+		E470926D1E3911C4001540EE /* States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		E470926F1E39138A001540EE /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		E47092711E39220E001540EE /* AlbumDetails.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlbumDetails.storyboard; sourceTree = "<group>"; };
+		E47092731E39235F001540EE /* AlbumDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsVC.swift; sourceTree = "<group>"; };
+		E47092791E392AE1001540EE /* AlbumDetailsCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsCells.swift; sourceTree = "<group>"; };
+		E470927B1E392B7C001540EE /* AlbumsDetailsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsDetailsVM.swift; sourceTree = "<group>"; };
+		E470927D1E392CE2001540EE /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E470921A1E38D1D2001540EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02B35FDE22FED388B68BB1C /* Pods_haroldo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47092301E38D1D2001540EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE74598F5772F16F25B7AD45 /* Pods_haroldoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E470923B1E38D1D2001540EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4A1BC13DEC5C014452BF14 /* Pods_haroldoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88BC9C2B595FCE817F46AB7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71D99EBCEB98BB83D2872009 /* Pods-haroldo.debug.xcconfig */,
+				6B2B2326049409A849371BC0 /* Pods-haroldo.release.xcconfig */,
+				88D9EC14357AD93E909A7552 /* Pods-haroldoTests.debug.xcconfig */,
+				BD48383D76BD95F69A532178 /* Pods-haroldoTests.release.xcconfig */,
+				AEE22FD28CBD47A1555CF4FB /* Pods-haroldoUITests.debug.xcconfig */,
+				CB840DD9560C88BC4FF16361 /* Pods-haroldoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAE399CE95936DAC5246695B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA23652ADEDE6C3E159C4AD6 /* Pods_haroldo.framework */,
+				CE7A9110908E3EE8F03666A0 /* Pods_haroldoTests.framework */,
+				ADECA10C3B1CD369EE5CE683 /* Pods_haroldoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E47092141E38D1D2001540EE = {
+			isa = PBXGroup;
+			children = (
+				E470921F1E38D1D2001540EE /* haroldo */,
+				E47092361E38D1D2001540EE /* haroldoTests */,
+				E47092411E38D1D2001540EE /* haroldoUITests */,
+				E470921E1E38D1D2001540EE /* Products */,
+				88BC9C2B595FCE817F46AB7F /* Pods */,
+				AAE399CE95936DAC5246695B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E470921E1E38D1D2001540EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E470921D1E38D1D2001540EE /* haroldo.app */,
+				E47092331E38D1D2001540EE /* haroldoTests.xctest */,
+				E470923E1E38D1D2001540EE /* haroldoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E470921F1E38D1D2001540EE /* haroldo */ = {
+			isa = PBXGroup;
+			children = (
+				E47092501E38D284001540EE /* Controllers */,
+				E47092511E38D28C001540EE /* ViewModels */,
+				E47092521E38D295001540EE /* Models */,
+				E47092531E38D2DF001540EE /* Operators */,
+				E47092541E38D2EB001540EE /* Helpers */,
+				E47092551E38D2F7001540EE /* Susy */,
+				E47092201E38D1D2001540EE /* AppDelegate.swift */,
+				E47092291E38D1D2001540EE /* Assets.xcassets */,
+				E470922E1E38D1D2001540EE /* Info.plist */,
+			);
+			path = haroldo;
+			sourceTree = "<group>";
+		};
+		E47092361E38D1D2001540EE /* haroldoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E47092371E38D1D2001540EE /* haroldoTests.swift */,
+				E47092391E38D1D2001540EE /* Info.plist */,
+			);
+			path = haroldoTests;
+			sourceTree = "<group>";
+		};
+		E47092411E38D1D2001540EE /* haroldoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E47092421E38D1D2001540EE /* haroldoUITests.swift */,
+				E47092441E38D1D2001540EE /* Info.plist */,
+			);
+			path = haroldoUITests;
+			sourceTree = "<group>";
+		};
+		E47092501E38D284001540EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E47092601E38D916001540EE /* Launch screen */,
+				E470925F1E38D8D0001540EE /* Tab bar */,
+				E47092561E38D6FB001540EE /* Albums */,
+				E47092571E38D702001540EE /* Tasks */,
+				E47092581E38D70C001540EE /* Posts */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E47092511E38D28C001540EE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E470926B1E391184001540EE /* AlbumsVM.swift */,
+				E470927B1E392B7C001540EE /* AlbumsDetailsVM.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		E47092521E38D295001540EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E47092671E38F879001540EE /* Album.swift */,
+				E470927D1E392CE2001540EE /* Comment.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E47092531E38D2DF001540EE /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				E47092631E38F708001540EE /* AlbumsOP.swift */,
+			);
+			name = Operators;
+			sourceTree = "<group>";
+		};
+		E47092541E38D2EB001540EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E47092551E38D2F7001540EE /* Susy */ = {
+			isa = PBXGroup;
+			children = (
+				E47092651E38F7A2001540EE /* Constants.swift */,
+				E47092691E3907F8001540EE /* Notifications.swift */,
+				E470926D1E3911C4001540EE /* States.swift */,
+			);
+			name = Susy;
+			sourceTree = "<group>";
+		};
+		E47092561E38D6FB001540EE /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				E47092591E38D78B001540EE /* Albums.storyboard */,
+				E47092611E38DE6B001540EE /* AlbumsVC.swift */,
+				E470926F1E39138A001540EE /* AlbumCell.swift */,
+				E47092711E39220E001540EE /* AlbumDetails.storyboard */,
+				E47092731E39235F001540EE /* AlbumDetailsVC.swift */,
+				E47092791E392AE1001540EE /* AlbumDetailsCells.swift */,
+			);
+			name = Albums;
+			sourceTree = "<group>";
+		};
+		E47092571E38D702001540EE /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				E470925B1E38D840001540EE /* Tasks.storyboard */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		E47092581E38D70C001540EE /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				E470925D1E38D853001540EE /* Posts.storyboard */,
+			);
+			name = Posts;
+			sourceTree = "<group>";
+		};
+		E470925F1E38D8D0001540EE /* Tab bar */ = {
+			isa = PBXGroup;
+			children = (
+				E47092261E38D1D2001540EE /* Main.storyboard */,
+			);
+			name = "Tab bar";
+			sourceTree = "<group>";
+		};
+		E47092601E38D916001540EE /* Launch screen */ = {
+			isa = PBXGroup;
+			children = (
+				E470922B1E38D1D2001540EE /* LaunchScreen.storyboard */,
+			);
+			name = "Launch screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E470921C1E38D1D2001540EE /* haroldo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47092471E38D1D2001540EE /* Build configuration list for PBXNativeTarget "haroldo" */;
+			buildPhases = (
+				701D3D81518765306F5EB595 /* [CP] Check Pods Manifest.lock */,
+				E47092191E38D1D2001540EE /* Sources */,
+				E470921A1E38D1D2001540EE /* Frameworks */,
+				E470921B1E38D1D2001540EE /* Resources */,
+				E82AF104A1FA605492F40DF8 /* [CP] Embed Pods Frameworks */,
+				AAC982F8FB83C10A247119A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = haroldo;
+			productName = haroldo;
+			productReference = E470921D1E38D1D2001540EE /* haroldo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E47092321E38D1D2001540EE /* haroldoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E470924A1E38D1D2001540EE /* Build configuration list for PBXNativeTarget "haroldoTests" */;
+			buildPhases = (
+				D9AD2780DEFCA7762A042211 /* [CP] Check Pods Manifest.lock */,
+				E470922F1E38D1D2001540EE /* Sources */,
+				E47092301E38D1D2001540EE /* Frameworks */,
+				E47092311E38D1D2001540EE /* Resources */,
+				C0A9EDDD357E38AF45E3E163 /* [CP] Embed Pods Frameworks */,
+				34C97B7926D29BA87BBE9CEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47092351E38D1D2001540EE /* PBXTargetDependency */,
+			);
+			name = haroldoTests;
+			productName = haroldoTests;
+			productReference = E47092331E38D1D2001540EE /* haroldoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E470923D1E38D1D2001540EE /* haroldoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E470924D1E38D1D2001540EE /* Build configuration list for PBXNativeTarget "haroldoUITests" */;
+			buildPhases = (
+				01E8C14C01866E2969B4D255 /* [CP] Check Pods Manifest.lock */,
+				E470923A1E38D1D2001540EE /* Sources */,
+				E470923B1E38D1D2001540EE /* Frameworks */,
+				E470923C1E38D1D2001540EE /* Resources */,
+				EAD06E79FCFBF7E4D2BFD6A7 /* [CP] Embed Pods Frameworks */,
+				CC89BE681A7F2EFCFDC84E37 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47092401E38D1D2001540EE /* PBXTargetDependency */,
+			);
+			name = haroldoUITests;
+			productName = haroldoUITests;
+			productReference = E470923E1E38D1D2001540EE /* haroldoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E47092151E38D1D2001540EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MAT;
+				TargetAttributes = {
+					E470921C1E38D1D2001540EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QZ8ZM29X2P;
+						ProvisioningStyle = Automatic;
+					};
+					E47092321E38D1D2001540EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QZ8ZM29X2P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E470921C1E38D1D2001540EE;
+					};
+					E470923D1E38D1D2001540EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QZ8ZM29X2P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E470921C1E38D1D2001540EE;
+					};
+				};
+			};
+			buildConfigurationList = E47092181E38D1D2001540EE /* Build configuration list for PBXProject "haroldo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E47092141E38D1D2001540EE;
+			productRefGroup = E470921E1E38D1D2001540EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E470921C1E38D1D2001540EE /* haroldo */,
+				E47092321E38D1D2001540EE /* haroldoTests */,
+				E470923D1E38D1D2001540EE /* haroldoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E470921B1E38D1D2001540EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E470925E1E38D853001540EE /* Posts.storyboard in Resources */,
+				E470925A1E38D78B001540EE /* Albums.storyboard in Resources */,
+				E470922D1E38D1D2001540EE /* LaunchScreen.storyboard in Resources */,
+				E47092721E39220E001540EE /* AlbumDetails.storyboard in Resources */,
+				E470922A1E38D1D2001540EE /* Assets.xcassets in Resources */,
+				E47092281E38D1D2001540EE /* Main.storyboard in Resources */,
+				E470925C1E38D840001540EE /* Tasks.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47092311E38D1D2001540EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E470923C1E38D1D2001540EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E8C14C01866E2969B4D255 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34C97B7926D29BA87BBE9CEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-haroldoTests/Pods-haroldoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		701D3D81518765306F5EB595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC982F8FB83C10A247119A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-haroldo/Pods-haroldo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A9EDDD357E38AF45E3E163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-haroldoTests/Pods-haroldoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC89BE681A7F2EFCFDC84E37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-haroldoUITests/Pods-haroldoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9AD2780DEFCA7762A042211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E82AF104A1FA605492F40DF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-haroldo/Pods-haroldo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD06E79FCFBF7E4D2BFD6A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-haroldoUITests/Pods-haroldoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E47092191E38D1D2001540EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E470926A1E3907F8001540EE /* Notifications.swift in Sources */,
+				E470927C1E392B7C001540EE /* AlbumsDetailsVM.swift in Sources */,
+				E47092741E39235F001540EE /* AlbumDetailsVC.swift in Sources */,
+				E470926C1E391184001540EE /* AlbumsVM.swift in Sources */,
+				E47092681E38F879001540EE /* Album.swift in Sources */,
+				E470926E1E3911C4001540EE /* States.swift in Sources */,
+				E47092621E38DE6B001540EE /* AlbumsVC.swift in Sources */,
+				E47092641E38F708001540EE /* AlbumsOP.swift in Sources */,
+				E470927E1E392CE2001540EE /* Comment.swift in Sources */,
+				E470927A1E392AE1001540EE /* AlbumDetailsCells.swift in Sources */,
+				E47092211E38D1D2001540EE /* AppDelegate.swift in Sources */,
+				E47092661E38F7A2001540EE /* Constants.swift in Sources */,
+				E47092701E39138A001540EE /* AlbumCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E470922F1E38D1D2001540EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47092381E38D1D2001540EE /* haroldoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E470923A1E38D1D2001540EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47092431E38D1D2001540EE /* haroldoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E47092351E38D1D2001540EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E470921C1E38D1D2001540EE /* haroldo */;
+			targetProxy = E47092341E38D1D2001540EE /* PBXContainerItemProxy */;
+		};
+		E47092401E38D1D2001540EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E470921C1E38D1D2001540EE /* haroldo */;
+			targetProxy = E470923F1E38D1D2001540EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E47092261E38D1D2001540EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E47092271E38D1D2001540EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E470922B1E38D1D2001540EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E470922C1E38D1D2001540EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E47092451E38D1D2001540EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E47092461E38D1D2001540EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E47092481E38D1D2001540EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D99EBCEB98BB83D2872009 /* Pods-haroldo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QZ8ZM29X2P;
+				INFOPLIST_FILE = haroldo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mat.haroldo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E47092491E38D1D2001540EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2B2326049409A849371BC0 /* Pods-haroldo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QZ8ZM29X2P;
+				INFOPLIST_FILE = haroldo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mat.haroldo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E470924B1E38D1D2001540EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D9EC14357AD93E909A7552 /* Pods-haroldoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QZ8ZM29X2P;
+				INFOPLIST_FILE = haroldoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mat.haroldoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haroldo.app/haroldo";
+			};
+			name = Debug;
+		};
+		E470924C1E38D1D2001540EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD48383D76BD95F69A532178 /* Pods-haroldoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QZ8ZM29X2P;
+				INFOPLIST_FILE = haroldoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mat.haroldoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haroldo.app/haroldo";
+			};
+			name = Release;
+		};
+		E470924E1E38D1D2001540EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE22FD28CBD47A1555CF4FB /* Pods-haroldoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QZ8ZM29X2P;
+				INFOPLIST_FILE = haroldoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mat.haroldoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = haroldo;
+			};
+			name = Debug;
+		};
+		E470924F1E38D1D2001540EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB840DD9560C88BC4FF16361 /* Pods-haroldoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QZ8ZM29X2P;
+				INFOPLIST_FILE = haroldoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mat.haroldoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = haroldo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E47092181E38D1D2001540EE /* Build configuration list for PBXProject "haroldo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47092451E38D1D2001540EE /* Debug */,
+				E47092461E38D1D2001540EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47092471E38D1D2001540EE /* Build configuration list for PBXNativeTarget "haroldo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47092481E38D1D2001540EE /* Debug */,
+				E47092491E38D1D2001540EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E470924A1E38D1D2001540EE /* Build configuration list for PBXNativeTarget "haroldoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E470924B1E38D1D2001540EE /* Debug */,
+				E470924C1E38D1D2001540EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E470924D1E38D1D2001540EE /* Build configuration list for PBXNativeTarget "haroldoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E470924E1E38D1D2001540EE /* Debug */,
+				E470924F1E38D1D2001540EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E47092151E38D1D2001540EE /* Project object */;
+}
